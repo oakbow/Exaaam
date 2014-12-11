@@ -16,7 +16,7 @@ describe 'Exaam' do
     @exaaam = Exaaam.new
     # @left_out = @inputs.delete(@inputs.sample)
     @left_out = @inputs.delete(8814)
-    pp @inputs
+    # pp @inputs
   end
 
   it 'helloはHello World!を返す' do
